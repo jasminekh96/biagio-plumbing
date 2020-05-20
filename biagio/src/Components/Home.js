@@ -31,6 +31,14 @@ const Home = () => {
 					<img className='homePageImg' src={img6} alt='Second slide' />
 				</div> */}
 			</Slider>
+			<div>
+				<p>
+					Based in Central Islip and travels through Suffolk and Nassau County. Small family business since 1986. We
+					take all charge cards and give senior citizen discount. We also take emergency calls all hours of the day,
+					Saturday and Sunday are for emergency calls only. Price varies depending on job. Small jobs, big jobs,
+					commercial jobs, we do it all!
+				</p>
+			</div>
 		</div>
 	);
 };
