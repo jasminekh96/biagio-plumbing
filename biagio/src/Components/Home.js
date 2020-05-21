@@ -13,17 +13,15 @@ import Slider from 'react-slick';
 const Home = () => {
 	return (
 		<div>
-			<div class='row'>
-				<div class='column'>
-					<img src={img7} alt='Snow' width='100%' />
-					{/* <img src={img4} width='100%' />
-				<img src={img6} width='100%' /> */}
+			<div className='row'>
+				<div className='column'>
+					<img className='homePic' src={img7} alt='Indirect Water Heater' width='100%' />
 				</div>
-				<div class='column'>
-					<img src={img2} alt='Forest' width='100%' />
+				<div className='column'>
+					<img className='homePic' src={img2} alt='Four Zone Boiler with Press Fittings' width='100%' />
 				</div>
-				<div class='column'>
-					<img src={img3} alt='Mountains' width='100%' />
+				<div className='column'>
+					<img className='homePic' src={img3} alt='Wall Hanging High Efficiency Heat and Hot Water Unit' width='100%' />
 				</div>
 			</div>
 
@@ -62,14 +60,6 @@ const Home = () => {
 					</div>
 					//{' '}
 				<div> */}
-			<div className='aboutCard'>
-				<p>
-					Based in Central Islip and travels through Suffolk and Nassau County. Small family business since 1986. We
-					take all charge cards and give senior citizen discount. We also take emergency calls all hours of the day,
-					Saturday and Sunday are for emergency calls only. Price varies depending on job. Small jobs, big jobs,
-					commercial jobs, we do it all!
-				</p>
-			</div>
 		</div>
 	);
 };

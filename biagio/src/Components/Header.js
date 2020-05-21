@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Header = () => {
 	return (
@@ -8,15 +8,50 @@ const Header = () => {
 				<p>Biagio Plumbing and Heating</p>
 			</Link>
 			<nav className='headerLinks'>
-				<NavLink className='styledLink home' to='/'>
+				<Link
+					className='styledLink home'
+					activeClass='active'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={1000}
+					to='Home'
+					activeClassName='selected'>
 					Home
-				</NavLink>
-				<NavLink className='styledLink about' to='/aboutus'>
-					About Us
-				</NavLink>
-				<NavLink className='styledLink contact' to='/contact'>
+				</Link>
+				<Link
+					className='styledLink home'
+					activeClass='active'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={1000}
+					to='About'
+					activeClassName='selected'>
+					About
+				</Link>
+				<Link
+					className='styledLink home'
+					activeClass='active'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={1000}
+					to='Skills'
+					activeClassName='selected'>
+					Skills
+				</Link>
+				<Link
+					className='styledLink contact'
+					activeClass='active'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={1000}
+					to='Contact'
+					activeClassName='selected'>
 					Contact
-				</NavLink>
+				</Link>
 			</nav>
 		</div>
 	);
