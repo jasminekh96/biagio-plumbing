@@ -492,14 +492,20 @@ template {
 }
 
 .headerTitle {
-	font-size: 2.5em;
+	font-size: 2.0em;
 	color: #fff;
 	text-decoration: none;
 }
 /* .headerTitle:hover {
 	font-size: 3.0rem;
 } */
-
+.headerSub {
+	font-size: 1.5rem;
+}
+.headerSections {
+	display: flex;
+	flex-direction: column;
+}
 .headerLinks {
 	display: flex;
 	color: white;

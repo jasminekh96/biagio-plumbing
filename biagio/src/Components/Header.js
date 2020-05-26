@@ -4,9 +4,10 @@ import { Link } from 'react-scroll';
 const Header = () => {
 	return (
 		<div className='headerContainer'>
-			<Link className='headerTitle' to='/'>
-				<p>Biagio Plumbing and Heating</p>
-			</Link>
+			<div className='headerSections'>
+				<p className='headerTitle'>Biagio Plumbing and Heating</p>
+				<p className='headerSub'>FREE ESTIMATES</p>
+			</div>
 			<nav className='headerLinks'>
 				<Link
 					className='styledLink home'
