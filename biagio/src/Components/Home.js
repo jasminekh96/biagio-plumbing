@@ -13,6 +13,9 @@ import Slider from 'react-slick';
 const Home = () => {
 	return (
 		<div>
+			<div className='header-card'>
+				<h1>FREE ESTIMATES</h1>
+			</div>
 			<div className='row'>
 				<div className='column'>
 					<img className='homePic' src={img7} alt='Indirect Water Heater' width='100%' />

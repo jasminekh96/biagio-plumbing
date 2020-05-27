@@ -472,7 +472,7 @@ template {
 }
 .headerContainer {
 	border-radius: 10px;
-	height: 20vh;
+	height: 18vh;
 	font-family: 'PT Sans', sans-serif;
 	color: #ffff;
 	display: flex;
@@ -492,16 +492,11 @@ template {
 }
 
 .headerTitle {
-	font-size: 2.0em;
+	font-size: 3.0em;
 	color: #fff;
 	text-decoration: none;
 }
-/* .headerTitle:hover {
-	font-size: 3.0rem;
-} */
-.headerSub {
-	font-size: 1.5rem;
-}
+
 .headerSections {
 	display: flex;
 	flex-direction: column;
@@ -509,7 +504,6 @@ template {
 .headerLinks {
 	display: flex;
 	color: white;
-	/* margin-left: 100px; */
 	color: #ffff;
 	justify-content: space-around;
 }
@@ -555,14 +549,12 @@ template {
 	border-radius: 60px;
 }
 .contactContainer {
+	margin-bottom: 20px;
 	font-family: 'Roboto Mono', monospace;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 20px;
-	text-align: center;
-	margin-top: 10px;
-	border: solid 2px #fff;
 	background-color: #ffff;
 	border-radius: 10px;
 	width: 100;
@@ -645,4 +637,17 @@ a {
 	margin-bottom: 10px;
 	border-radius: 5px;
 	padding: 5px;
+}
+
+.header-card {
+	font-family: 'Roboto Mono', monospace;
+	background-color: #ffff;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+i {
+	padding: 10px;
 }

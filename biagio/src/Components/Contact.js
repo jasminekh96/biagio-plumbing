@@ -8,8 +8,9 @@ const Contact = () => {
 			<header className='contactHeader'>
 				<div className='social'>
 					<div className='item-contact'>
+						<div>Click to call and get your free estimate now! </div>
 						<i className='fas fa-phone-square-alt' />
-						<span>631.348.0301</span>
+						<a href='tel:+6313480301'>631.348.0301</a>
 					</div>
 					<div className='item-contact'>
 						<i className='fas fa-map-marker-alt' />

@@ -14,11 +14,11 @@ function App() {
 				<div id='Home'>
 					<Home />
 				</div>
-				<div id='About'>
-					<About />
-				</div>
 				<div id='Skills'>
 					<Skills />
+				</div>
+				<div id='About'>
+					<About />
 				</div>
 				<div id='Contact'>
 					<Contact />
