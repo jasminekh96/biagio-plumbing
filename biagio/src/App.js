@@ -5,6 +5,7 @@ import Contact from '../src/Components/Contact';
 import Home from '../src/Components/Home';
 import About from '../src/Components/About';
 import Skills from '../src/Components/Skills';
+import Reviews from '../src/Components/Reviews';
 
 function App() {
 	return (
@@ -19,6 +20,9 @@ function App() {
 				</div>
 				<div id='About'>
 					<About />
+				</div>
+				<div id='Reviews'>
+					<Reviews />
 				</div>
 				<div id='Contact'>
 					<Contact />

@@ -26,6 +26,17 @@ const Header = () => {
 					smooth={true}
 					offset={-70}
 					duration={1000}
+					to='Skills'
+					activeClassName='selected'>
+					Skills
+				</Link>
+				<Link
+					className='styledLink home'
+					activeClass='active'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={1000}
 					to='About'
 					activeClassName='selected'>
 					About
@@ -37,9 +48,9 @@ const Header = () => {
 					smooth={true}
 					offset={-70}
 					duration={1000}
-					to='Skills'
+					to='Reviews'
 					activeClassName='selected'>
-					Skills
+					Reviews
 				</Link>
 				<Link
 					className='styledLink contact'
