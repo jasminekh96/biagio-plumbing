@@ -23,8 +23,9 @@ html {
    */
 
 body {
-	margin: 0;
-	background-color: #1e90ff;
+	background-image: url('Images/plumbingGrass.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /**
