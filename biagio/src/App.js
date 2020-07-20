@@ -6,12 +6,14 @@ import Home from '../src/Components/Home';
 import About from '../src/Components/About';
 import Skills from '../src/Components/Skills';
 import Reviews from '../src/Components/Reviews';
+import Message from '../src/Components/Message';
 
 function App() {
 	return (
 		<div className='container'>
 			<div className='appCont'>
 				<Header />
+				<Message />
 				<div id='Home'>
 					<Home />
 				</div>

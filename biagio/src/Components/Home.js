@@ -15,6 +15,10 @@ const Home = () => {
 		<div>
 			<div className='header-card'>
 				<h1>FREE ESTIMATES</h1>
+				<h1>
+					<i className='fas fa-phone-square-alt' />
+					<a href='tel:+6313480301'>631.348.0301</a>
+				</h1>
 			</div>
 			<div className='row'>
 				<div className='column'>
