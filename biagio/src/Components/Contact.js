@@ -4,7 +4,7 @@ import Picture from '../Images/biagio-icon.png';
 const Contact = () => {
 	return (
 		<div className='contactContainer'>
-			<img className='imgContact' src={Picture} />
+			<img className='imgContact' src={Picture} alt='card of biagio' />
 			<header className='contactHeader'>
 				<div className='social'>
 					<div className='item-contact'>
