@@ -669,6 +669,12 @@ a {
 	flex-direction: row;
 	align-items: center;
 }
+@media only screen and (max-width: 600px) {
+	.header-card {
+		display: flex;
+		flex-direction: column;
+	}
+}
 i {
 	padding: 10px;
 }
