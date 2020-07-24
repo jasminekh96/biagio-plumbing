@@ -24,42 +24,6 @@ const Home = () => {
 					<img className='homePic' src={img3} alt='Wall Hanging High Efficiency Heat and Hot Water Unit' width='100%' />
 				</div>
 			</div>
-
-			{/* <div className='homeContainer'>
-				//{' '}
-				<Slider className='slider' speed={500} slidesToShow={1} slidesToScroll={1} dots={true}>
-					//{' '}
-					<div>
-						// <img className='homePageImg' src={img1} alt='First slide' />
-						//{' '}
-					</div>
-					//{' '}
-					<div>
-						// <img className='homePageImg' src={img2} alt='Second slide' />
-						//{' '}
-					</div>
-					//{' '}
-					<div>
-						// <img className='homePageImg' src={img3} alt='Second slide' />
-						//{' '}
-					</div>
-					//{' '}
-					<div>
-						// <img className='homePageImg' src={img4} alt='Second slide' />
-						//{' '}
-					</div>
-					//{' '}
-					<div>
-						// <img className='homePageImg' src={img5} alt='Second slide' />
-						//{' '}
-					</div>
-					//{' '}
-					<div>
-						// <img className='homePageImg' src={img6} alt='Second slide' />
-						//{' '}
-					</div>
-					//{' '}
-				<div> */}
 		</div>
 	);
 };
